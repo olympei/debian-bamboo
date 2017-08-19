@@ -1,0 +1,6 @@
+#!/bin/bash
+
+BAMBOO_USER='bamboo'
+BAMBOO_INSTALL='/home/www/public_html/bamboo-install.server.com'
+
+su - $BAMBOO_USER -c $BAMBOO_INSTALL/bin/start-bamboo.sh run
