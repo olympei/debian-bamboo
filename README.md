@@ -45,7 +45,7 @@ $ docker run -d -p 8000:8085 \
 * default command: bamboo start
 
 # Example:
-![example-docker-bamboo](images/example-docker-jira.png)
+![example-docker-bamboo](https://github.com/thinegan/debian-bamboo/raw/master/images/example-bamboo-start.png)
 
 # Issues
 If you run into any problems with this image, please check (and potentially file new) issues on the [thinegan/debian-bamboo](https://github.com/thinegan/debian-bamboo) repo, which is the source for this image.
