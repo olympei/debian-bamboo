@@ -51,7 +51,7 @@ $ docker run -d -p 8000:8085 \
 If you run into any problems with this image, please check (and potentially file new) issues on the [thinegan/debian-bamboo](https://github.com/thinegan/debian-bamboo) repo, which is the source for this image.
 
 # References
-* [Atlassian Jira](https://www.atlassian.com/software/bamboo)
+* [Atlassian Bamboo](https://www.atlassian.com/software/bamboo)
 * [Docker Homepage](https://www.docker.com/)
 * [Docker Compose](https://docs.docker.com/compose/)
 * [Docker Userguide](https://docs.docker.com/userguide/)
