@@ -1,0 +1,13 @@
+version: "2.1"
+# Example spin Bamboo Software container
+services:
+  jiraserver:
+    image: thinegan/debian-bamboo
+    container_name: bamboosoftware
+    hostname: bambooserver
+    build: .
+    # Exposed to host machines
+    ports:
+      - "8000:8085"
+    volumes:
+      - ./bamboo-data:/home/www/public_html/bamboo-data.server.com
