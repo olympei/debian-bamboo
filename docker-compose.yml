@@ -1,7 +1,7 @@
 version: "2.1"
 # Example spin Bamboo Software container
 services:
-  jiraserver:
+  bambooserver:
     image: thinegan/debian-bamboo
     container_name: bamboosoftware
     hostname: bambooserver

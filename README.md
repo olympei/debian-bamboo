@@ -24,7 +24,7 @@ Dockerized bamboo service, built on top of official Debian images.
 # Shortcut
 Docker-Compose:
 ```console
-$ curl -O https://raw.githubusercontent.com/thinegan/debian-jira/master/docker-compose.yml
+$ curl -O https://raw.githubusercontent.com/thinegan/debian-bamboo/master/docker-compose.yml
 $ docker-compose pull && docker-compose up -d
 ```
 
@@ -45,13 +45,13 @@ $ docker run -d -p 8000:8085 \
 * default command: bamboo start
 
 # Example:
-![example-docker-jira](images/example-docker-jira.png)
+![example-docker-bamboo](images/example-docker-jira.png)
 
 # Issues
-If you run into any problems with this image, please check (and potentially file new) issues on the [thinegan/debian-jira](https://github.com/thinegan/debian-jira) repo, which is the source for this image.
+If you run into any problems with this image, please check (and potentially file new) issues on the [thinegan/debian-bamboo](https://github.com/thinegan/debian-bamboo) repo, which is the source for this image.
 
 # References
-* [Atlassian Jira](https://www.atlassian.com/software/jira)
+* [Atlassian Jira](https://www.atlassian.com/software/bamboo)
 * [Docker Homepage](https://www.docker.com/)
 * [Docker Compose](https://docs.docker.com/compose/)
 * [Docker Userguide](https://docs.docker.com/userguide/)
